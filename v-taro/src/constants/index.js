@@ -1,0 +1,3 @@
+export const UPDATE_G2048 = 'UPDATE_G2048'
+export const UPDATE_PUZZLE = 'UPDATE_PUZZLE'
+export const UPDATE_SWEEP = 'UPDATE_SWEEP'

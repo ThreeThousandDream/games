@@ -1,0 +1,56 @@
+.g2048 {
+  .btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+    box-shadow: 0 0 5px #2ecc71;
+    font-size: 30px;
+  }
+
+  .restart {
+    top: 70px;
+    color: #aaa;
+  }
+
+  .back {
+    bottom: 80px;
+    color: #ccc;
+  }
+
+  .active {
+    transition: all .2s;
+  }
+
+  .net {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    height: 560px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0;
+    background-color: #cccccc;
+
+    .grid {
+      display: inline-block;
+      width: 124px;
+      height: 124px;
+      margin: 8px;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 124px;
+      font-size: 40px;
+      font-weight: 1200;
+      transition: background-color .2s;
+
+      &.blank {
+        color: transparent;
+      }
+    }
+  }
+}

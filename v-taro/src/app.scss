@@ -1,0 +1,33 @@
+// 自定义主题
+
+@import "~taro-ui/dist/style/index.scss";
+
+// 全局样式
+.btn {
+  display: inline-block;
+  padding: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  line-height: 1;
+}
+
+.panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+}
+
+// taro-ui样式覆盖
+.at-nav-bar {
+  background-color: #2ecc71;
+
+}
+
+.at-nav-bar__left-view,
+.at-nav-bar__title,
+.at-nav-bar__right-view {
+  color: white;
+}

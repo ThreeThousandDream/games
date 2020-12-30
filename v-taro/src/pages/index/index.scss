@@ -1,0 +1,18 @@
+.index {
+  background-color: #ccc;
+
+  .btn-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px 0 40px 0;
+
+    button {
+      width: 50%;
+      margin-top: 20px;
+      color: #2ecc71;
+    }
+  }
+}
